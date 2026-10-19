@@ -12,11 +12,18 @@ body {
     font-family: Arial, sans-serif;
 }
 
+form {
+    width: 100%;
+    margin: 0;
+}
+
 .registrasi-container {
     width: 100%;
+    max-width: 700px;
     padding: 30px 25px;
     background-color: white;
     border-radius: 8px;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -40,8 +47,8 @@ label {
     color: #333;
 }
 
-input,
-select {
+
+input, select {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
