@@ -50,6 +50,7 @@ select {
     font-size: 14px;
     background-color: white;
     box-sizing: border-box;
+    display: block;
 }
 
 button {
