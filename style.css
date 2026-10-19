@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dadfea;
+    font-family: Arial, sans-serif;
+}
+
+.registrasi-container {
+    width: 100%;
+    padding: 30px 25px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h1 {
+    margin: 0 0 10px;
+    text-align: center;
+    font-size: 24px;
+    color: #222;
+}
+
+.deskripsi {
+    margin: 0 0 25px;
+    text-align: center;
+    color: #0e0e0e6c;
+    font-size: 14px;
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: white;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6089fd;
+}
